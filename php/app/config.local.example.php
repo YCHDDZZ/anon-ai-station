@@ -1,0 +1,25 @@
+<?php
+// 复制为 app/config.local.php 后填写；不要提交真实密钥
+return [
+    'APP_ENV' => 'production',
+    'APP_SECRET' => '至少32位随机串',
+    'DB_DRIVER' => 'mysql',
+    'DB_HOST' => 'localhost',
+    'DB_PORT' => '3306',
+    'DB_NAME' => '数据库名',
+    'DB_USER' => '数据库用户',
+    'DB_PASS' => '数据库密码',
+    'PUBLIC_URL' => 'https://你的域名',
+    'ADMIN_EMAIL' => '管理员邮箱',
+    'ADMIN_PASSWORD' => '首次登录密码',
+    'CAPTCHA_DEV_ECHO' => 'false',
+    'MAIL_DEV_FALLBACK' => 'false',
+    'SMTP_HOST' => 'smtp.qq.com',
+    'SMTP_PORT' => '465',
+    'SMTP_SECURE' => 'true',
+    'SMTP_USER' => '',
+    'SMTP_PASS' => '',
+    'SMTP_FROM' => '',
+    'SMTP_FROM_NAME' => '千早爱音的AI站',
+    'MAX_FILE_MB' => '30',
+];

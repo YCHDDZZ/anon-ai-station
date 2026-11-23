@@ -1,0 +1,14 @@
+{
+  "name": "anon-ai-station",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "千早爱音的AI站：多用户 AI 对话系统，账号分级 + 第三方能力自带 + 共享算力兜底",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

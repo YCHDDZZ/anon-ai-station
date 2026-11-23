@@ -1,0 +1,27 @@
+# 环境与密钥
+.env
+.env.*
+!.env.example
+
+# 数据与上传
+data/
+**/data/
+**/tests/tmp/
+*.sqlite
+*.sqlite-*
+*.db
+*.log
+
+# 依赖
+node_modules/
+
+# 安卓签名与构建产物
+android/keystore/
+android/build/
+*.apk
+*.jks
+*.keystore
+
+# 系统
+.DS_Store
+Thumbs.db

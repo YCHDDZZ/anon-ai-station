@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">千早爱音的AI站</string>
+    <string name="loading">爱音正在准备舞台…</string>
+    <string name="offline_title">连不上爱音的站点</string>
+    <string name="offline_hint">检查一下网络连接，或者稍后再试。爱音在这里等你～</string>
+    <string name="retry">再试一次</string>
+    <string name="open_browser">用浏览器打开</string>
+    <string name="update_badge">来自千早爱音的更新</string>
+    <string name="update_now">现在更新</string>
+    <string name="update_later">稍后再说</string>
+    <string name="update_must">这次更新是必须的，装好就能继续聊天啦。</string>
+    <string name="update_optional">可以稍后更新，但新版本会更稳更顺～</string>
+</resources>
